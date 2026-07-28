@@ -1,0 +1,6 @@
+@AksharaMane.API_HostAddress = http://localhost:5069
+
+GET {{AksharaMane.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
