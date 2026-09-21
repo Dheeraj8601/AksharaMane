@@ -2,12 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
-            steps {
-                git branch: 'main',
-                    url: 'https://github.com/Dheeraj8601/AksharaMane.git'
-            }
-        }
 
         stage('Restore') {
             steps {
